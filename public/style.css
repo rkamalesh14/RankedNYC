@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+/* .map {
+  height: 100%;
+} */
+
+#loader-div {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#loader {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#app {
+  position: relative;
+  height: 100vh;
+}
+
+.header {
+  color: black;
+}
