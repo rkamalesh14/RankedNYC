@@ -44,7 +44,7 @@ function ButtonAppBar(props) {
           <Typography variant="title" color="inherit" className={classes.flex}>
             {title}
           </Typography>
-          <Button onClick={() => history.push('/home')} color="inherit">
+          <Button onClick={() => history.push('/')} color="inherit">
             Map
           </Button>
           <Button onClick={() => history.push('/search')} color="inherit">

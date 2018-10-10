@@ -28,13 +28,13 @@ const selectedList = list => ({ type: SELECTED_LIST, list });
 
 export const selectList = list => dispatch => {
   dispatch(selectedList(list));
-  history.push('/home');
+  history.push('/');
 };
 export const getData = (url, name) => async dispatch => {
   try {
     const { data } = await axios.post('/api/search', { url, name });
     dispatch(gotData({ name, data }));
-    history.push('/home');
+    history.push('/');
   } catch (err) {
     console.error(err);
   }

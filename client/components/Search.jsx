@@ -93,7 +93,7 @@ class Search extends React.Component {
               <TextField
                 id="url"
                 name="url"
-                label="Url:"
+                label="Url: (Currently only supports The Infatuation articles)"
                 className={classes.textField}
                 onChange={this.handleChange}
                 margin="normal"
